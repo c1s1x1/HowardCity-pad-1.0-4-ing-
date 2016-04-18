@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AAC439C1CC0EBB400C0A4FB /* HCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC43991CC0EBB400C0A4FB /* HCAccount.m */; };
+		2AAC439D1CC0EBB400C0A4FB /* HCAuthTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC439B1CC0EBB400C0A4FB /* HCAuthTool.m */; };
+		2AAC43A31CC0EC9B00C0A4FB /* UIView+CZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC43A21CC0EC9B00C0A4FB /* UIView+CZ.m */; };
 		2AD5BB391CC0CEE3008D0A0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5BB381CC0CEE3008D0A0A /* main.m */; };
 		2AD5BB3C1CC0CEE3008D0A0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5BB3B1CC0CEE3008D0A0A /* AppDelegate.m */; };
-		2AD5BB3F1CC0CEE3008D0A0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5BB3E1CC0CEE3008D0A0A /* ViewController.m */; };
 		2AD5BB421CC0CEE3008D0A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5BB401CC0CEE3008D0A0A /* Main.storyboard */; };
 		2AD5BB441CC0CEE3008D0A0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5BB431CC0CEE3008D0A0A /* Images.xcassets */; };
 		2AD5BB471CC0CEE3008D0A0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5BB451CC0CEE3008D0A0A /* LaunchScreen.xib */; };
 		2AD5BB531CC0CEE4008D0A0A /* HowardCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5BB521CC0CEE4008D0A0A /* HowardCityTests.m */; };
+		2AEFA1491CC0F961005C1F2F /* HCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEFA1481CC0F961005C1F2F /* HCLoginViewController.m */; };
+		F2D66133B5C902A4FA925F42 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3DE0C69178708E7055C38F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AAC43981CC0EBB400C0A4FB /* HCAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCAccount.h; sourceTree = "<group>"; };
+		2AAC43991CC0EBB400C0A4FB /* HCAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCAccount.m; sourceTree = "<group>"; };
+		2AAC439A1CC0EBB400C0A4FB /* HCAuthTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCAuthTool.h; sourceTree = "<group>"; };
+		2AAC439B1CC0EBB400C0A4FB /* HCAuthTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCAuthTool.m; sourceTree = "<group>"; };
+		2AAC43A11CC0EC9B00C0A4FB /* UIView+CZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CZ.h"; sourceTree = "<group>"; };
+		2AAC43A21CC0EC9B00C0A4FB /* UIView+CZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZ.m"; sourceTree = "<group>"; };
 		2AD5BB331CC0CEE3008D0A0A /* HowardCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowardCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD5BB371CC0CEE3008D0A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AD5BB381CC0CEE3008D0A0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AD5BB3A1CC0CEE3008D0A0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AD5BB3B1CC0CEE3008D0A0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2AD5BB3D1CC0CEE3008D0A0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2AD5BB3E1CC0CEE3008D0A0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2AD5BB411CC0CEE3008D0A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AD5BB431CC0CEE3008D0A0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2AD5BB461CC0CEE3008D0A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2AD5BB4C1CC0CEE4008D0A0A /* HowardCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowardCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD5BB511CC0CEE4008D0A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AD5BB521CC0CEE4008D0A0A /* HowardCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowardCityTests.m; sourceTree = "<group>"; };
+		2AEFA1471CC0F961005C1F2F /* HCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCLoginViewController.h; sourceTree = "<group>"; };
+		2AEFA1481CC0F961005C1F2F /* HCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCLoginViewController.m; sourceTree = "<group>"; };
+		2E1BCAFE929FFF805E66C74C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2E3DE0C69178708E7055C38F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EC5F3E13566C9A6B3A9311 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D66133B5C902A4FA925F42 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +74,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AAC43961CC0E6D300C0A4FB /* Login(登陆) */ = {
+			isa = PBXGroup;
+			children = (
+				2AEFA1471CC0F961005C1F2F /* HCLoginViewController.h */,
+				2AEFA1481CC0F961005C1F2F /* HCLoginViewController.m */,
+				2AAC43981CC0EBB400C0A4FB /* HCAccount.h */,
+				2AAC43991CC0EBB400C0A4FB /* HCAccount.m */,
+				2AAC439A1CC0EBB400C0A4FB /* HCAuthTool.h */,
+				2AAC439B1CC0EBB400C0A4FB /* HCAuthTool.m */,
+				2AD5BB401CC0CEE3008D0A0A /* Main.storyboard */,
+			);
+			name = "Login(登陆)";
+			sourceTree = "<group>";
+		};
+		2AAC43971CC0EA7800C0A4FB /* Other(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+				2AAC43A11CC0EC9B00C0A4FB /* UIView+CZ.h */,
+				2AAC43A21CC0EC9B00C0A4FB /* UIView+CZ.m */,
+				2AD5BB3A1CC0CEE3008D0A0A /* AppDelegate.h */,
+				2AD5BB3B1CC0CEE3008D0A0A /* AppDelegate.m */,
+			);
+			name = "Other(第三方)";
+			sourceTree = "<group>";
+		};
 		2AD5BB2A1CC0CEE3008D0A0A = {
 			isa = PBXGroup;
 			children = (
 				2AD5BB351CC0CEE3008D0A0A /* HowardCity */,
 				2AD5BB4F1CC0CEE4008D0A0A /* HowardCityTests */,
 				2AD5BB341CC0CEE3008D0A0A /* Products */,
+				DE3C8F7DE3BECC30F857AD67 /* Pods */,
+				D6B38006C584398CEAD7EE37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +122,8 @@
 		2AD5BB351CC0CEE3008D0A0A /* HowardCity */ = {
 			isa = PBXGroup;
 			children = (
-				2AD5BB3A1CC0CEE3008D0A0A /* AppDelegate.h */,
-				2AD5BB3B1CC0CEE3008D0A0A /* AppDelegate.m */,
-				2AD5BB3D1CC0CEE3008D0A0A /* ViewController.h */,
-				2AD5BB3E1CC0CEE3008D0A0A /* ViewController.m */,
-				2AD5BB401CC0CEE3008D0A0A /* Main.storyboard */,
+				2AAC43971CC0EA7800C0A4FB /* Other(第三方) */,
+				2AAC43961CC0E6D300C0A4FB /* Login(登陆) */,
 				2AD5BB431CC0CEE3008D0A0A /* Images.xcassets */,
 				2AD5BB451CC0CEE3008D0A0A /* LaunchScreen.xib */,
 				2AD5BB361CC0CEE3008D0A0A /* Supporting Files */,
@@ -119,6 +157,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D6B38006C584398CEAD7EE37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E3DE0C69178708E7055C38F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE3C8F7DE3BECC30F857AD67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56EC5F3E13566C9A6B3A9311 /* Pods.debug.xcconfig */,
+				2E1BCAFE929FFF805E66C74C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AD5BB561CC0CEE4008D0A0A /* Build configuration list for PBXNativeTarget "HowardCity" */;
 			buildPhases = (
+				5D1B250CDAA6EDDC61AAA2D6 /* Check Pods Manifest.lock */,
 				2AD5BB2F1CC0CEE3008D0A0A /* Sources */,
 				2AD5BB301CC0CEE3008D0A0A /* Frameworks */,
 				2AD5BB311CC0CEE3008D0A0A /* Resources */,
+				C66A368ECE10823DC5FA65A0 /* Embed Pods Frameworks */,
+				8410A351BCFAF0F05E5C98AC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +272,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D1B250CDAA6EDDC61AAA2D6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8410A351BCFAF0F05E5C98AC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66A368ECE10823DC5FA65A0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AD5BB2F1CC0CEE3008D0A0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AD5BB3F1CC0CEE3008D0A0A /* ViewController.m in Sources */,
+				2AAC439D1CC0EBB400C0A4FB /* HCAuthTool.m in Sources */,
+				2AAC439C1CC0EBB400C0A4FB /* HCAccount.m in Sources */,
 				2AD5BB3C1CC0CEE3008D0A0A /* AppDelegate.m in Sources */,
 				2AD5BB391CC0CEE3008D0A0A /* main.m in Sources */,
+				2AEFA1491CC0F961005C1F2F /* HCLoginViewController.m in Sources */,
+				2AAC43A31CC0EC9B00C0A4FB /* UIView+CZ.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +456,7 @@
 		};
 		2AD5BB571CC0CEE4008D0A0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EC5F3E13566C9A6B3A9311 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HowardCity/Info.plist;
@@ -357,6 +467,7 @@
 		};
 		2AD5BB581CC0CEE4008D0A0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1BCAFE929FFF805E66C74C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HowardCity/Info.plist;
@@ -418,6 +529,7 @@
 				2AD5BB581CC0CEE4008D0A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AD5BB591CC0CEE4008D0A0A /* Build configuration list for PBXNativeTarget "HowardCityTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +538,7 @@
 				2AD5BB5B1CC0CEE4008D0A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
