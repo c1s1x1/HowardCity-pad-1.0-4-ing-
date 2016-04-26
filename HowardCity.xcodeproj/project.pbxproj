@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C07027A1CCB86C700D37D4C /* LXNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0702791CCB86C700D37D4C /* LXNetworking.m */; };
+		1C07027F1CCB8AD500D37D4C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C07027C1CCB8AD500D37D4C /* MBProgressHUD.m */; };
+		1C0702801CCB8AD500D37D4C /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C07027E1CCB8AD500D37D4C /* MBProgressHUD+Add.m */; };
+		1C39E5571CC88B8D00E91B27 /* HCFilerecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C39E5561CC88B8D00E91B27 /* HCFilerecord.m */; };
+		1C430F991CCCAA2600068B20 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C430F981CCCAA2600068B20 /* QuickLook.framework */; };
+		1CF7946F1CCDB79F00344D88 /* Left1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7946E1CCDB79F00344D88 /* Left1ViewController.m */; };
+		1CF794781CCDBA2B00344D88 /* HCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF794771CCDBA2B00344D88 /* HCLoginViewController.m */; };
+		1CF7947B1CCDBA5200344D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF794791CCDBA5200344D88 /* Main.storyboard */; };
+		1CF7947D1CCDBA8400344D88 /* left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF7947C1CCDBA8400344D88 /* left.storyboard */; };
+		1CF794821CCDFAF900344D88 /* HCUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF794811CCDFAF900344D88 /* HCUserInfo.m */; };
 		2A94C2AB1CC483E900946909 /* HCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A94C2AA1CC483E900946909 /* HCMainViewController.m */; };
 		2A94C2AE1CC48D0100946909 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A94C2AD1CC48D0100946909 /* UIBarButtonItem+Extension.m */; };
 		2A94C2C91CC5DBB100946909 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A94C2C01CC5DBB100946909 /* CenterViewController.m */; };
@@ -34,11 +44,9 @@
 		2AAC43A31CC0EC9B00C0A4FB /* UIView+CZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC43A21CC0EC9B00C0A4FB /* UIView+CZ.m */; };
 		2AD5BB391CC0CEE3008D0A0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5BB381CC0CEE3008D0A0A /* main.m */; };
 		2AD5BB3C1CC0CEE3008D0A0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5BB3B1CC0CEE3008D0A0A /* AppDelegate.m */; };
-		2AD5BB421CC0CEE3008D0A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5BB401CC0CEE3008D0A0A /* Main.storyboard */; };
 		2AD5BB441CC0CEE3008D0A0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5BB431CC0CEE3008D0A0A /* Images.xcassets */; };
 		2AD5BB471CC0CEE3008D0A0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5BB451CC0CEE3008D0A0A /* LaunchScreen.xib */; };
 		2AD5BB531CC0CEE4008D0A0A /* HowardCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5BB521CC0CEE4008D0A0A /* HowardCityTests.m */; };
-		2AEFA1491CC0F961005C1F2F /* HCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEFA1481CC0F961005C1F2F /* HCLoginViewController.m */; };
 		2AF41D1C1CC7509D00B27601 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF41D1B1CC7509D00B27601 /* Node.m */; };
 		2AF41D1F1CC750A900B27601 /* TreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF41D1E1CC750A900B27601 /* TreeTableView.m */; };
 		2AF41D241CC76E3300B27601 /* ProjectEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF41D231CC76E3300B27601 /* ProjectEntity.m */; };
@@ -56,6 +64,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C0702781CCB86C700D37D4C /* LXNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LXNetworking.h; path = LXNetworking/LXNetworking.h; sourceTree = "<group>"; };
+		1C0702791CCB86C700D37D4C /* LXNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LXNetworking.m; path = LXNetworking/LXNetworking.m; sourceTree = "<group>"; };
+		1C07027B1CCB8AD500D37D4C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1C07027C1CCB8AD500D37D4C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1C07027D1CCB8AD500D37D4C /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		1C07027E1CCB8AD500D37D4C /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		1C39E5551CC88B8D00E91B27 /* HCFilerecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCFilerecord.h; sourceTree = "<group>"; };
+		1C39E5561CC88B8D00E91B27 /* HCFilerecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCFilerecord.m; sourceTree = "<group>"; };
+		1C430F981CCCAA2600068B20 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		1CF7946D1CCDB79F00344D88 /* Left1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Left1ViewController.h; sourceTree = "<group>"; };
+		1CF7946E1CCDB79F00344D88 /* Left1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Left1ViewController.m; sourceTree = "<group>"; };
+		1CF794761CCDBA2B00344D88 /* HCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCLoginViewController.h; sourceTree = "<group>"; };
+		1CF794771CCDBA2B00344D88 /* HCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCLoginViewController.m; sourceTree = "<group>"; };
+		1CF7947A1CCDBA5200344D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CF7947C1CCDBA8400344D88 /* left.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = left.storyboard; sourceTree = "<group>"; };
+		1CF794801CCDFAF900344D88 /* HCUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCUserInfo.h; sourceTree = "<group>"; };
+		1CF794811CCDFAF900344D88 /* HCUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCUserInfo.m; sourceTree = "<group>"; };
 		2A94C2A91CC483E900946909 /* HCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMainViewController.h; sourceTree = "<group>"; };
 		2A94C2AA1CC483E900946909 /* HCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMainViewController.m; sourceTree = "<group>"; };
 		2A94C2AC1CC48D0100946909 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
@@ -114,14 +139,11 @@
 		2AD5BB381CC0CEE3008D0A0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AD5BB3A1CC0CEE3008D0A0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AD5BB3B1CC0CEE3008D0A0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2AD5BB411CC0CEE3008D0A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AD5BB431CC0CEE3008D0A0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2AD5BB461CC0CEE3008D0A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2AD5BB4C1CC0CEE4008D0A0A /* HowardCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowardCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD5BB511CC0CEE4008D0A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AD5BB521CC0CEE4008D0A0A /* HowardCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowardCityTests.m; sourceTree = "<group>"; };
-		2AEFA1471CC0F961005C1F2F /* HCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCLoginViewController.h; sourceTree = "<group>"; };
-		2AEFA1481CC0F961005C1F2F /* HCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCLoginViewController.m; sourceTree = "<group>"; };
 		2AF41D1A1CC7509D00B27601 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		2AF41D1B1CC7509D00B27601 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 		2AF41D1D1CC750A900B27601 /* TreeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTableView.h; sourceTree = "<group>"; };
@@ -138,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C430F991CCCAA2600068B20 /* QuickLook.framework in Frameworks */,
 				F2D66133B5C902A4FA925F42 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,11 +175,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0702771CCB86BF00D37D4C /* LXNetworking(网络) */ = {
+			isa = PBXGroup;
+			children = (
+				1C0702781CCB86C700D37D4C /* LXNetworking.h */,
+				1C0702791CCB86C700D37D4C /* LXNetworking.m */,
+			);
+			name = "LXNetworking(网络)";
+			sourceTree = "<group>";
+		};
+		1C0702811CCB8AE500D37D4C /* MBProgressHUD(提示框) */ = {
+			isa = PBXGroup;
+			children = (
+				1C07027B1CCB8AD500D37D4C /* MBProgressHUD.h */,
+				1C07027C1CCB8AD500D37D4C /* MBProgressHUD.m */,
+				1C07027D1CCB8AD500D37D4C /* MBProgressHUD+Add.h */,
+				1C07027E1CCB8AD500D37D4C /* MBProgressHUD+Add.m */,
+			);
+			name = "MBProgressHUD(提示框)";
+			sourceTree = "<group>";
+		};
 		1C39E5521CC887AB00E91B27 /* File(文件列表) */ = {
 			isa = PBXGroup;
 			children = (
+				1C39E5541CC88B6800E91B27 /* controller */,
+				1C39E5531CC88B6200E91B27 /* model */,
 			);
 			name = "File(文件列表)";
+			sourceTree = "<group>";
+		};
+		1C39E5531CC88B6200E91B27 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1C39E5551CC88B8D00E91B27 /* HCFilerecord.h */,
+				1C39E5561CC88B8D00E91B27 /* HCFilerecord.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		1C39E5541CC88B6800E91B27 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A94C2A91CC483E900946909 /* HCMainViewController.h */,
+				2A94C2AA1CC483E900946909 /* HCMainViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		1CF7947E1CCDFA9E00344D88 /* UserInfo(用户信息) */ = {
+			isa = PBXGroup;
+			children = (
+				1CF794831CCE24D900344D88 /* controller */,
+				1CF7947F1CCDFAC700344D88 /* model */,
+			);
+			name = "UserInfo(用户信息)";
+			sourceTree = "<group>";
+		};
+		1CF7947F1CCDFAC700344D88 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1CF794801CCDFAF900344D88 /* HCUserInfo.h */,
+				1CF794811CCDFAF900344D88 /* HCUserInfo.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		1CF794831CCE24D900344D88 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A94C2C11CC5DBB100946909 /* LeftViewController.h */,
+				2A94C2C21CC5DBB100946909 /* LeftViewController.m */,
+				1CF7946D1CCDB79F00344D88 /* Left1ViewController.h */,
+				1CF7946E1CCDB79F00344D88 /* Left1ViewController.m */,
+				2A94C2C31CC5DBB100946909 /* RightViewController.h */,
+				2A94C2C41CC5DBB100946909 /* RightViewController.m */,
+				1CF7947C1CCDBA8400344D88 /* left.storyboard */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 		2A94C2A81CC483A100946909 /* Project(项目列表) */ = {
@@ -165,8 +260,6 @@
 				2A94C2EE1CC6334B00946909 /* cell */,
 				2A94C2D21CC6014500946909 /* controller */,
 				2A94C2D11CC6013300946909 /* model */,
-				2A94C2A91CC483E900946909 /* HCMainViewController.h */,
-				2A94C2AA1CC483E900946909 /* HCMainViewController.m */,
 			);
 			name = "Project(项目列表)";
 			sourceTree = "<group>";
@@ -188,10 +281,6 @@
 				2AF41D231CC76E3300B27601 /* ProjectEntity.m */,
 				2A94C2BF1CC5DBB100946909 /* CenterViewController.h */,
 				2A94C2C01CC5DBB100946909 /* CenterViewController.m */,
-				2A94C2C11CC5DBB100946909 /* LeftViewController.h */,
-				2A94C2C21CC5DBB100946909 /* LeftViewController.m */,
-				2A94C2C31CC5DBB100946909 /* RightViewController.h */,
-				2A94C2C41CC5DBB100946909 /* RightViewController.m */,
 				2A94C2C51CC5DBB100946909 /* RootViewController.h */,
 				2A94C2C61CC5DBB100946909 /* RootViewController.m */,
 			);
@@ -264,13 +353,13 @@
 		2AAC43961CC0E6D300C0A4FB /* Login(登陆) */ = {
 			isa = PBXGroup;
 			children = (
-				2AEFA1471CC0F961005C1F2F /* HCLoginViewController.h */,
-				2AEFA1481CC0F961005C1F2F /* HCLoginViewController.m */,
+				1CF794761CCDBA2B00344D88 /* HCLoginViewController.h */,
+				1CF794771CCDBA2B00344D88 /* HCLoginViewController.m */,
 				2AAC43981CC0EBB400C0A4FB /* HCAccount.h */,
 				2AAC43991CC0EBB400C0A4FB /* HCAccount.m */,
 				2AAC439A1CC0EBB400C0A4FB /* HCAuthTool.h */,
 				2AAC439B1CC0EBB400C0A4FB /* HCAuthTool.m */,
-				2AD5BB401CC0CEE3008D0A0A /* Main.storyboard */,
+				1CF794791CCDBA5200344D88 /* Main.storyboard */,
 			);
 			name = "Login(登陆)";
 			sourceTree = "<group>";
@@ -278,7 +367,9 @@
 		2AAC43971CC0EA7800C0A4FB /* Other(第三方) */ = {
 			isa = PBXGroup;
 			children = (
-				2AF41D201CC750B000B27601 /* Tree */,
+				1C0702811CCB8AE500D37D4C /* MBProgressHUD(提示框) */,
+				1C0702771CCB86BF00D37D4C /* LXNetworking(网络) */,
+				2AF41D201CC750B000B27601 /* Tree(树形图) */,
 				2A94C2D41CC6026B00946909 /* MJExtension */,
 				2A94C2D31CC6016300946909 /* tool */,
 				2AD5BB3A1CC0CEE3008D0A0A /* AppDelegate.h */,
@@ -311,6 +402,7 @@
 		2AD5BB351CC0CEE3008D0A0A /* HowardCity */ = {
 			isa = PBXGroup;
 			children = (
+				1CF7947E1CCDFA9E00344D88 /* UserInfo(用户信息) */,
 				1C39E5521CC887AB00E91B27 /* File(文件列表) */,
 				2A94C2A81CC483A100946909 /* Project(项目列表) */,
 				2AAC43971CC0EA7800C0A4FB /* Other(第三方) */,
@@ -348,7 +440,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2AF41D201CC750B000B27601 /* Tree */ = {
+		2AF41D201CC750B000B27601 /* Tree(树形图) */ = {
 			isa = PBXGroup;
 			children = (
 				2AF41D1A1CC7509D00B27601 /* Node.h */,
@@ -356,12 +448,13 @@
 				2AF41D1D1CC750A900B27601 /* TreeTableView.h */,
 				2AF41D1E1CC750A900B27601 /* TreeTableView.m */,
 			);
-			name = Tree;
+			name = "Tree(树形图)";
 			sourceTree = "<group>";
 		};
 		D6B38006C584398CEAD7EE37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C430F981CCCAA2600068B20 /* QuickLook.framework */,
 				2A94C2AF1CC4B83B00946909 /* MTreeViewFramework.framework */,
 				2E3DE0C69178708E7055C38F /* libPods.a */,
 			);
@@ -429,6 +522,7 @@
 				TargetAttributes = {
 					2AD5BB321CC0CEE3008D0A0A = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = VE9S8PKZZ6;
 					};
 					2AD5BB4B1CC0CEE4008D0A0A = {
 						CreatedOnToolsVersion = 6.4;
@@ -460,8 +554,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AD5BB421CC0CEE3008D0A0A /* Main.storyboard in Resources */,
+				1CF7947D1CCDBA8400344D88 /* left.storyboard in Resources */,
 				2AD5BB471CC0CEE3008D0A0A /* LaunchScreen.xib in Resources */,
+				1CF7947B1CCDBA5200344D88 /* Main.storyboard in Resources */,
 				2AD5BB441CC0CEE3008D0A0A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,7 +630,10 @@
 				2A94C2CA1CC5DBB200946909 /* LeftViewController.m in Sources */,
 				2A94C2CC1CC5DBB200946909 /* RootViewController.m in Sources */,
 				2A94C2F51CC6335E00946909 /* HCStatuseCell.m in Sources */,
+				1C07027F1CCB8AD500D37D4C /* MBProgressHUD.m in Sources */,
 				2A94C2F61CC6335E00946909 /* HCStatuseDetailView.m in Sources */,
+				1CF794781CCDBA2B00344D88 /* HCLoginViewController.m in Sources */,
+				1CF7946F1CCDB79F00344D88 /* Left1ViewController.m in Sources */,
 				2A94C2E41CC6028200946909 /* MJConst.m in Sources */,
 				2A94C3011CC633AD00946909 /* HCStatuseOriginalCellFrame.m in Sources */,
 				2A94C2AB1CC483E900946909 /* HCMainViewController.m in Sources */,
@@ -547,6 +645,9 @@
 				2A94C2CB1CC5DBB200946909 /* RightViewController.m in Sources */,
 				2AF41D1F1CC750A900B27601 /* TreeTableView.m in Sources */,
 				2A94C2E71CC6028200946909 /* MJType.m in Sources */,
+				1C07027A1CCB86C700D37D4C /* LXNetworking.m in Sources */,
+				1C39E5571CC88B8D00E91B27 /* HCFilerecord.m in Sources */,
+				1C0702801CCB8AD500D37D4C /* MBProgressHUD+Add.m in Sources */,
 				2A94C2E61CC6028200946909 /* MJIvar.m in Sources */,
 				2A94C3001CC633AD00946909 /* HCStatuseDetailCellFrame.m in Sources */,
 				2AD5BB3C1CC0CEE3008D0A0A /* AppDelegate.m in Sources */,
@@ -557,8 +658,8 @@
 				2A94C2C91CC5DBB100946909 /* CenterViewController.m in Sources */,
 				2A94C2E81CC6028200946909 /* NSObject+MJCoding.m in Sources */,
 				2AD5BB391CC0CEE3008D0A0A /* main.m in Sources */,
-				2AEFA1491CC0F961005C1F2F /* HCLoginViewController.m in Sources */,
 				2AAC43A31CC0EC9B00C0A4FB /* UIView+CZ.m in Sources */,
+				1CF794821CCDFAF900344D88 /* HCUserInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,10 +682,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2AD5BB401CC0CEE3008D0A0A /* Main.storyboard */ = {
+		1CF794791CCDBA5200344D88 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2AD5BB411CC0CEE3008D0A0A /* Base */,
+				1CF7947A1CCDBA5200344D88 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -687,13 +788,11 @@
 			baseConfigurationReference = 56EC5F3E13566C9A6B3A9311 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/PurpleMoon/Downloads/代码/MTreeViewFramework/Products",
-				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HowardCity/PrefixHeader.pch";
 				INFOPLIST_FILE = HowardCity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -704,13 +803,11 @@
 			baseConfigurationReference = 2E1BCAFE929FFF805E66C74C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/PurpleMoon/Downloads/代码/MTreeViewFramework/Products",
-				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HowardCity/PrefixHeader.pch";
 				INFOPLIST_FILE = HowardCity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
