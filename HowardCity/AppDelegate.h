@@ -12,6 +12,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property(nonatomic,assign)BOOL allowRotation;//是否允许转向
+
+@property(nonatomic,assign)NSInteger rotation_Style;
 
 @end
 

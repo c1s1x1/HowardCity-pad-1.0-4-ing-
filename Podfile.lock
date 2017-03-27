@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - STPopup (1.7.0)
+  - TZImagePickerController (1.5.0)
+  - XLForm (3.2.0)
+  - YiRefresh (0.9.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.0)
+  - SDWebImage (~> 3.8.1)
+  - STPopup
+  - TZImagePickerController
+  - XLForm (~> 3.2.0)
+  - YiRefresh (~> 0.9.5)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  STPopup: 36b45120f51ab3cdf7a10c1b9032b7fc8eef75ac
+  TZImagePickerController: d09eef6042852a9dd19224ae4e874f7430852a51
+  XLForm: 2250b4e96ab8ffa5f3355838c79edd90de451782
+  YiRefresh: 80c8e4113d720be8e133a5b8f499ccad27dde760
+
+COCOAPODS: 0.39.0

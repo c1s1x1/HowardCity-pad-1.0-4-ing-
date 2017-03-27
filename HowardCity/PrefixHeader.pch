@@ -1,0 +1,79 @@
+//
+//  PrefixHeader.pch
+//  HowardCity
+//
+//  Created by 紫月 on 16/4/18.
+//  Copyright (c) 2016年 CSX. All rights reserved.
+//
+#import <UIKit/UIKit.h>
+#import "HowardCityTool.h"
+#import "UIView+CZ.h"
+#import "GzwTableViewLoading.h"
+#import "AFNetworking/AFNetworking.h"
+#import "HCStatuses.h"
+#import "MJExtension.h"
+#import "MBProgressHUD.h"
+#import "UIView+CZ.h"
+#import "HCAccount.h"
+#import "HCAuthTool.h"
+#import "NSString+ChineseCharactersToSpelling.h"
+//#import "YiRefreshHeader.h"
+#import "YiRefreshHeader.h"
+
+#ifndef HowardCity_PrefixHeader_pch
+#define HowardCity_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef DEBUG
+#define  HCLog(...) NSLog(@"%s %d \n %@ \n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+//NSLog(__VA_ARGS__)
+#else
+#define  HCLog(...)
+#endif
+
+//整个屏幕的宽度
+#define UIScreenW [UIScreen mainScreen].bounds.size.width
+
+//整个屏幕的高度
+#define UIScreenH [UIScreen mainScreen].bounds.size.height
+
+//--------项目Cell的一些配置--------
+//项目Cell，个个子控件之间的间距
+#define HCStatusCellInset 10
+//项目名称字体 大小
+#define HCStatusOriginalSNFont [UIFont systemFontOfSize:15]
+
+//项目SPI CPI 大小
+#define HCStatusOriginalSCFont [UIFont systemFontOfSize:15]
+
+//项目字体 大小
+#define HCStatusOriginalTimeFont [UIFont systemFontOfSize:12]
+
+//项目字体 大小
+#define HCStatusOriginalSourceFont [UIFont systemFontOfSize:12]
+
+//文件列表字体 大小
+#define HCFileFont [UIFont systemFontOfSize:20]
+
+//个人信息间隔
+#define HCUserInfoInset 20
+
+//借口前缀
+#define HCInterfacePrefix @"https://www.rovibim.cn:8443/androidside.jsp?"
+
+//颜色
+#define HCColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+//判断设备型号
+#define UI_IS_LANDSCAPE         ([UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeLeft || [UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeRight)
+#define UI_IS_IPAD              ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+#define UI_IS_IPHONE            ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+#define UI_IS_IPHONE4           (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height < 568.0)
+#define UI_IS_IPHONE5           (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0)
+#define UI_IS_IPHONE6           (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0)
+#define UI_IS_IPHONE6PLUS       (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736.0 || [[UIScreen mainScreen] bounds].size.width == 736.0) // Both orientations
+#define UI_IS_IOS8_AND_HIGHER   ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0)
+
+#endif
